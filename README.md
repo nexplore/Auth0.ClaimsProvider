@@ -1,4 +1,4 @@
-# Auth0.ClaimsProvider
+# Auth0.ClaimsProvider (with a webproxy request)
 
 ##Prerequisites:
 - SharePoint solution development tools for Visual Studio 2015
@@ -26,3 +26,11 @@
   3. Go to Central Admin -> Security      
     1. Under General Security section, click on "Configure Auth0 Claims Provider"      
     2. Set the required configuration parameters (like domain, client ID, client secret and identifier user field)
+  
+  4. Set the Webproxy url
+  
+    ~~~ps1
+    $wa = Get-SPWebapplication https://sharepoint.example.ch
+    $wa.Properties["ProxyUrl"] = "http://webproxy.example.ch:9055"
+    $wa.Update()
+    ~~~
