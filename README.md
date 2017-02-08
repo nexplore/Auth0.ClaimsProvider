@@ -35,5 +35,7 @@
     $wa.Update()
     ~~~
     
-  5. (Optional) Set the webproxy username + domain + password but you need another solution to set it <a href="https://github.com/nexplore/Nx.SharePoint.Auth0" target="_blank">Nx.SharePoint.Auth0</a>
-	 You can set the password plaintext or set the PassPhrase in the <a href="https://github.com/nexplore/Nx.SharePoint.Auth0/blob/master/Nx.SharePoint.Auth0/Helpers/Constants.cs" target="_blank">Constants.cs line 6 </a> and/or <a href="https://github.com/nexplore/Auth0.ClaimsProvider/blob/master/Auth0.ClaimsProvider/Helper/Crypto.cs" target="_blank">Crypto.cs line 14</a>
+  5. (Optional) Set the webproxy username + domain + password but you need another solution to set it:
+<a href="https://github.com/nexplore/Nx.SharePoint.Auth0" target="_blank">Nx.SharePoint.Auth0</a>
+
+	You can set the password plaintext or set the PassPhrase in the <a href="https://github.com/nexplore/Nx.SharePoint.Auth0/blob/master/Nx.SharePoint.Auth0/Helpers/Constants.cs" target="_blank">Constants.cs line 6 </a> and/or <a href="https://github.com/nexplore/Auth0.ClaimsProvider/blob/master/Auth0.ClaimsProvider/Helper/Crypto.cs" target="_blank">Crypto.cs line 14</a>
