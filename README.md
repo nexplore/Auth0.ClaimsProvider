@@ -34,3 +34,15 @@
     $wa.Properties["ProxyUrl"] = "http://webproxy.example.ch:9055"
     $wa.Update()
     ~~~
+
+  5. (Optional) Set the webproxy username + domain + password
+    1. You can set the password plaintext or set the PassPhrase in the https://github.com/nexplore/Auth0.ClaimsProvider/blob/master/Auth0.ClaimsProvider/Helper/Crypto.cs line 14  
+    2. Open PowerShell  
+    ~~~ps1
+    $wa = Get-SPWebapplication https://sharepoint.example.ch
+    $wa.Properties["UserName"] = "Property Value"
+    $wa.Properties["Password"] = "Property Value" # plain text or step 3 encrypted 
+    $wa.Properties["Domain"] = "Property Value"
+    $wa.Update()
+    ~~~
+    3. <a href="https://gallery.technet.microsoft.com/scriptcenter/PowerShell-Script-410ef9df" target="_blank">$encryptedpassowrd = Encrypt-String "PassPhrase from step 1" "MyStrongPassword"</a>
