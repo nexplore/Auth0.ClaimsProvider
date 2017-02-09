@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AutoActivateInCentralAdmin="TRUE" Description="Add link to central admin site to access Auth Claim Provider settings page." Id="a1170a31-9536-4c6c-b5b5-ec6b2fecd22c" Scope="Web" Title="Auth0.ClaimsProvider.Administrator">
+  <ElementManifests>
+    <ElementManifest Location="AdminLinks\Elements.xml" />
+  </ElementManifests>
+</Feature>

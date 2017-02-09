@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ad1c1a7c-a9d2-4538-b969-cd702c737bf3" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Auth0Merged.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="Auth0.ClaimsProvider.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Admin\Auth0ClaimsProvider\Settings.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="Auth0ClaimsProvider\Feature.xml" />
+    <FeatureManifest Location="Auth0.ClaimsProvider\Feature.xml" />
+  </FeatureManifests>
+</Solution>
