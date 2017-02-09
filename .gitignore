@@ -2,4 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/.vs/Auth0.ClaimsProvider/v14/
 /Auth0.ClaimsProvider/bin/Debug
+/Auth0.ClaimsProvider/obj/Debug/
+/Auth0.ClaimsProvider.LogsProcessor/bin/Debug
+/Auth0.ClaimsProvider.LogsProcessor/obj/Debug/
