@@ -1,1 +1,0 @@
-bin\Debug\Nx.Auth0.ClaimsProvider.wsp
